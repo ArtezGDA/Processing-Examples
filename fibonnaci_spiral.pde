@@ -4,7 +4,7 @@
 float phi = 137.51; // 360 - 360/golden_ratio
 int nDots = 1000; 
 float dotsize = 8;
-float expandsize = 0.6;
+float expandsize = 8.0;
 
 void setup() {
     size(400, 400);
@@ -17,7 +17,7 @@ void draw() {
         pushMatrix();
         translate(200, 200);
         rotate(phi * i);
-        ellipse(0, i * expandsize, dotsize, dotsize);
+        ellipse(0, sqrt(i) * expandsize, dotsize, dotsize);
         popMatrix();
     }
 }

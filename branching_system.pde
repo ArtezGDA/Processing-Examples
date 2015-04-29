@@ -7,12 +7,13 @@ void setup() {
 }
 
 void draw() {
-    drawBranch(200, 300, 100, 0, steps);
+    background(200);
+    drawBranch(200, 300, 100, PI / 2, steps);
 }
 
 void drawBranch(float x, float y, float length, float angle, int repeat_n) {
     float x1 = x + (cos(angle) * length);
-    float y1 = y + (sin(angle) * length);
+    float y1 = y - (sin(angle) * length);
     line(x, y, x1, y1);
 }
 
@@ -25,7 +26,6 @@ void keyPressed() {
     if (keyCode == RIGHT) {
         steps += 1;
         update_drawing();
-        redraw();
     }
     if (keyCode == LEFT) {
         steps -= 1;
@@ -33,6 +33,6 @@ void keyPressed() {
             steps = 1;
         }
         update_drawing();
-        redraw();
     }
 }
+

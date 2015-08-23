@@ -5,6 +5,7 @@ Contains:
 
 - recursive examples
 - branching system
+- fibonnaci_spiral
 
 ##recursiveExamples
 
@@ -18,3 +19,12 @@ Simple processing sketch that draws a simple L-system
 ![Branching system](branching_system.png)
 
 The original repo lived at https://github.com/ArtezGDA/branching_system
+
+## fibonnaci_spiral
+
+Simple processing sketch that draws a sunflower-like pattern
+
+![Phylotaxis Spiral](phylotaxis_spiral.png)
+
+The original repo lived at https://github.com/ArtezGDA/fibonnaci_spiral
+

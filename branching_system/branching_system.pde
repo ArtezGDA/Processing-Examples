@@ -11,10 +11,10 @@ void draw() {
     drawBranch(200, 300, 100, PI / 2, steps);
 }
 
-float d1 = 0.6;
-float d2 = 0.5;
-float a1 = PI / 12;
-float a2 = PI / 8;
+float d1 = 0.7;
+float d2 = 0.6;
+float a1 = PI / 8;
+float a2 = PI / 6;
 
 void drawBranch(float x, float y, float length, float angle, int repeat_n) {
     float x1 = x + (cos(angle) * length);

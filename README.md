@@ -6,7 +6,7 @@ Contains:
 - recursive examples
 - branching system
 - fibonnaci_spiral
-- algorithm-examples
+- perlin_noise examples
 
 ##recursiveExamples
 
@@ -29,6 +29,6 @@ Simple processing sketch that draws a sunflower-like pattern
 
 The original repo lived at https://github.com/ArtezGDA/fibonnaci_spiral
 
-## algorithm-examples
+## perlin_noise examples
 
-Examples of the algorithms (from the algorithm-assignment) in processing.
+Examples of Perlin Noise (part of the algorithm-assignment)
